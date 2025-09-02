@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="portfolio2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+<div id="header">
+   <div class="container">
+    <nav>
+        <img src="images/nargisbackground (2).jpg" class="logo">
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#about">Education</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars menu-icon" onclick="openmenu()"></i>
+    </nav>
+
+    
+    <div class="header-content">
+        <div class="header-text">
+            <p>BCA STUDENT</p>
+            <h1>Hi, I'm <br><span>NARGIS JAHAN <br>SHAH</span></h1>
+        </div>
+        <div class="header-img">
+            <img src="images/nargisbackground (1).jpg" alt="Nargis Jahan Shah" >
+        </div>
+    </div>
+  
+
+   </div>
+</div>
+
+<!-----about me section-->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/nargisback.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">ABOUT ME</h1>
+                <p>I am a first-year BCA student at VIPS, passionate about programming, problem-solving, and creative digital projects. Currently learning C, C++ and web technologies, I aim to build a strong foundation in computer science and explore software development. With growing interest in coding and creative work like video editing, my goal is to work on impactful projects and grow into a skilled tech professional.</p>
+            
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab(event, 'skills')">SKILLS</p>
+                    <p class="tab-links" onclick="opentab(event, 'experience')">EXPERIENCE</p>
+                    <p class="tab-links" onclick="opentab(event, 'education')">EDUCATION</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>C language</span> <br>Coding in C language</li>
+                        <li><span>WEB DEVELOPMENT</span> <br>Frontend Work</li>
+                        <li><span>PYTHON </span> <br>Python Language</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>FRESHER</span> <br> Looking forward to opportunities to apply my learning practically</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>BCA</span> <br>Vivekananda Institute Of Professional Studies</li>
+                        <li><span>12th</span> <br>Jamia Girls Senior Secondary School</li>
+                        <li><span>10th </span> <br>Panchsheel Public School</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---services-->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">MY SERVICES</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Web Design</h2>
+                <p>Design and develop clean, responsive, and beginner-friendly websites using HTML and CSS.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Code Debugging for C</h2>
+                <p>Debug and optimize your C programs for better performance and fewer errors.</p>
+                <a href="#">Learn more</a>
+            </div>     
+        </div>
+    </div>
+</div>
+
+<!----portfolio--------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">MY WORK</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/india.jpg">
+                <div class="layer">
+                    <h3><a href="tourist.html">Tourist Blog</a></h3>
+                    <p>"Discover Incredible India! A tourist blog created using HTML and CSS to highlight the country's beauty and heritage. Click to view the blog."</p>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/female.webp">
+                <div class="layer">
+                    <h3><a href="#">Another Personal Portfolio</a></h3>
+                    <p>"A responsive personal portfolio website, created using HTML & CSS, to display my work, skills, and learning journey."</p>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/weath.jpg">
+                <div class="layer">
+                    <h3><a href="weather/weather.html">Weather Forecasting Web App</a></h3>
+                    <p>"A responsive weather forecast app that displays real-time weather conditions using API integration, enabling users to check forecasts by location."</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-----contact------------ -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"> Contact Me </h1>
+                <p>nargisjahanhshah006@gmail.com</p>
+                <p>1234567890</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/your-profile" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/your-username" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://twitter.com/your-handle" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="mailto:nargisjahanhshah006@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+                <a href="nargis jahan shah.docx" class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Please enter your name" required>
+                    <input type="email" name="email" placeholder="Please enter your email" required>
+                    <textarea name="Message" rows="6" placeholder="Please add your message"></textarea>
+                    <button type="submit" class="btn btn-submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>&#169; Copyright @ NARGIS JAHAN SHAH.</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(event, tabname) {
+        for (var i = 0; i < tablinks.length; i++) {
+            tablinks[i].classList.remove("active-link");
+        }
+        for (var i = 0; i < tabcontents.length; i++) {
+            tabcontents[i].classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+
+<script>
+const scriptURL = 'https://script.google.com/macros/s/AKfycbyM76SBYP4H_3ba3IsgYiUAsFhvI5ajIO0HKMaBpLIdpLWmikUFCIGk5GtQtlgtVkVOLA/exec' 
+const form = document.forms['submit-to-google-sheet'] 
+form.addEventListener('submit', e => {
+    e.preventDefault() 
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)}) 
+    .then(response => console.log('Success!', response)) 
+    .catch(error => console.error('Error!', error.message)) 
+})
+</script>
+</body>
+</html>
