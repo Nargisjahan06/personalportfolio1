@@ -1,0 +1,54 @@
+#navbar{
+    height:100px;
+    width:1520px;
+    background-color:#c16536;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;  
+    margin-left:1px;  
+    align-items: center;        
+    gap: 50px; 
+}
+#DISCOVER{
+    text-align: center;
+    font-size:100px;
+    height:500px;
+    width:1520px;
+    color:#fff3eb;
+    background-color: #578fca;
+    background-image:url("hawa\ mahal.jpg");
+    background-size:contain;
+    text-align: center;
+}
+p{
+    font-size: 50px;
+}
+#feature{
+    height:300px;
+    width:500px;
+    background-color: #F5F0CD;
+    margin: 10px;
+    display: inline-block;  
+    border: 5px solid #c16536;
+}
+
+#posts{
+    font-size: 20px;
+
+}
+#PIC1,#PIC2{
+    height: 100px;
+    width:150px;
+    display: inline-block;
+    margin-right: 75px;
+    margin-left: 20px;
+    background-color: white;
+
+}
+footer{
+    height:75px;
+    width:1520px;
+    color:#F5F0CD
+    background-color:#c16536;  
+    border: 2px solid #f5f0cd;  
+}
